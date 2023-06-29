@@ -13,14 +13,6 @@
   margin: 110px auto 0;
 }
 
-.u-section-1 .u-icon-1 {
-  color: rgb(252, 252, 252) !important;
-  width: 680px;
-  height: 184px;
-  margin: 168px auto 60px;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
    .u-section-1 {
     min-height: 695px;
@@ -37,12 +29,6 @@
     margin-top: 135px;
     margin-left: 78px;
     margin-right: 78px;
-  }
-
-  .u-section-1 .u-icon-1 {
-    width: 580px;
-    height: 157px;
-    margin-top: 157px;
   }
 }
 
@@ -67,15 +53,7 @@
     letter-spacing: 2px;
     line-height: 1.66;
     width: 278px;
-    margin-top: 137px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-section-1 .u-icon-1 {
-    width: 339px;
-    height: 91px;
-    margin-top: 106px;
+    margin: 137px auto 60px;
   }
 } .u-section-2 {
   background-image: none;
