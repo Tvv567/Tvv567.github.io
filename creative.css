@@ -22,9 +22,9 @@
 }
 
 .u-section-1 .u-image-1 {
-  background-image: url("images/oldtape1--optimizephoto.jpg");
-  background-position: 55.61% 50%;
   min-height: 693px;
+  background-image: url("/images/oldtape1--optimizephoto.jpg");
+  background-position: 0% 1.16%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -48,6 +48,7 @@
 
   .u-section-1 .u-image-1 {
     min-height: 571px;
+    background-size: 130%;
   }
 }
 
@@ -120,8 +121,9 @@
   }
 
   .u-section-1 .u-image-1 {
-    background-position: 50% 50%;
+    background-position: 17.41% 28.81%;
     min-height: 270px;
+    background-size: auto 130%;
   }
 } .u-section-2 {
   background-image: none;
@@ -154,7 +156,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: url("images/stone1--optimizephoto.jpg");
+  background-image: url("/images/stone1--optimizephoto.jpg");
   background-position: 50% 50%;
 }
 
@@ -163,7 +165,7 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: url("images/stone2--optimizephoto.jpg");
+  background-image: url("/images/stone2--optimizephoto.jpg");
   background-position: 50% 50%;
 }
 
@@ -172,7 +174,7 @@
 }
 
 .u-section-2 .u-image-3 {
-  background-image: url("images/screen--optimizephoto.jpg");
+  background-image: url("/images/screen--optimizephoto.jpg");
   background-position: 50% 50%;
 }
 

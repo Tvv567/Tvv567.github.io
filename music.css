@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/b8f0e7c0adcc88a6d8253c62a8caa14a4f0ebf5e35e037493fd446de15ea7a5f1ee124e23eba198460dffc3b50df075c91a8d40a546dee46aa9775_1280.jpg");
+  background-image: url("/images/b8f0e7c0adcc88a6d8253c62a8caa14a4f0ebf5e35e037493fd446de15ea7a5f1ee124e23eba198460dffc3b50df075c91a8d40a546dee46aa9775_1280.jpg");
   background-position: 50% 50%;
   min-height: 644px;
 }
@@ -274,13 +274,13 @@
 }
 
 .u-section-3 .u-image-1 {
-  background-image: url("images/--e1559303400123.png");
+  background-image: url("/images/--e1559303400123.png");
   background-position: 50% 50%;
   min-height: 208px;
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("images/16522-skripach-muzykalnyj_instrument-violonchel-strunnyj_instrument-skripka_semya-2047x1284.jpg");
+  background-image: url("/images/16522-skripach-muzykalnyj_instrument-violonchel-strunnyj_instrument-skripka_semya-2047x1284.jpg");
   background-position: 50% 50%;
   min-height: 288px;
 }
@@ -350,7 +350,7 @@
     min-height: 289px;
   }
 } .u-section-4 {
-  background-image: url("images/creation-space-top-down-5.png");
+  background-image: url("/images/creation-space-top-down-5.png");
   background-position: 50% 50%;
   min-height: 444px;
 }
@@ -839,7 +839,7 @@
 }
 
 .u-section-8 .u-image-1 {
-  background-image: url("images/Passenger-1983.jpg");
+  background-image: url("/images/Passenger-1983.jpg");
   background-position: 50% 50%;
 }
 
@@ -848,7 +848,7 @@
 }
 
 .u-section-8 .u-image-2 {
-  background-image: url("images/maxresdefault.jpg");
+  background-image: url("/images/maxresdefault.jpg");
   background-position: 50% 50%;
 }
 
@@ -857,7 +857,7 @@
 }
 
 .u-section-8 .u-image-3 {
-  background-image: url("images/dad6e03dc4384d7b611f8cc979a0392e.JPG");
+  background-image: url("/images/dad6e03dc4384d7b611f8cc979a0392e.JPG");
   background-position: 50% 50%;
 }
 
@@ -866,7 +866,7 @@
 }
 
 .u-section-8 .u-image-4 {
-  background-image: url("images/49623131-0.jpeg");
+  background-image: url("/images/49623131-0.jpeg");
   background-position: 50% 50%;
 }
 
@@ -875,7 +875,7 @@
 }
 
 .u-section-8 .u-image-5 {
-  background-image: url("images/passenger-tour-600x358.jpg");
+  background-image: url("/images/passenger-tour-600x358.jpg");
   background-position: 50% 50%;
 }
 
@@ -884,7 +884,7 @@
 }
 
 .u-section-8 .u-image-6 {
-  background-image: url("images/ghows-PJ-72272824-e040-7c53-e053-0100007f0ef8-39969908.JPG");
+  background-image: url("/images/ghows-PJ-72272824-e040-7c53-e053-0100007f0ef8-39969908.JPG");
   background-position: 50% 50%;
 }
 
@@ -893,7 +893,7 @@
 }
 
 .u-section-8 .u-image-7 {
-  background-image: url("images/ab6761610000e5ebab48d905cf4b7e027da20d50.jpg");
+  background-image: url("/images/ab6761610000e5ebab48d905cf4b7e027da20d50.jpg");
   background-position: 50% 50%;
 }
 
@@ -902,7 +902,7 @@
 }
 
 .u-section-8 .u-image-8 {
-  background-image: url("images/passenger_-_press_photo_1__credit__shervin_lainez__wide-e877b01ceb995433f17955ef42ba637caa33fa9c.jpg");
+  background-image: url("/images/passenger_-_press_photo_1__credit__shervin_lainez__wide-e877b01ceb995433f17955ef42ba637caa33fa9c.jpg");
   background-position: 50% 50%;
 }
 
@@ -911,7 +911,7 @@
 }
 
 .u-section-8 .u-image-9 {
-  background-image: url("images/passenger-27-video-1413388173-view-0.png");
+  background-image: url("/images/passenger-27-video-1413388173-view-0.png");
   background-position: 50% 50%;
 }
 
@@ -920,7 +920,7 @@
 }
 
 .u-section-8 .u-image-10 {
-  background-image: url("images/0711297390421.jpg");
+  background-image: url("/images/0711297390421.jpg");
   background-position: 50% 50%;
 }
 
@@ -1643,7 +1643,7 @@
     margin-right: auto;
   }
 } .u-section-12 {
-  background-image: url("images/default-image.jpg");
+  background-image: url("/images/default-image.jpg");
   background-position: 50% 50%;
 }
 
@@ -1706,14 +1706,15 @@
 
   .u-section-12 .u-text-1 {
     width: auto;
-    margin-top: 156px;
+    margin-top: 165px;
     margin-right: 77px;
     margin-left: 75px;
   }
 
   .u-section-12 .u-text-2 {
+    width: 235px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 31px;
+    margin-bottom: 22px;
   }
 }

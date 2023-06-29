@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/bf1da6d66a57e0fbce426e7b02149a5bec4f808bd0aa509643f5f9e9b9afffd66467542016e4da71076e95b5c757240cb0fc70ade104d6ab47ed77_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("/images/bf1da6d66a57e0fbce426e7b02149a5bec4f808bd0aa509643f5f9e9b9afffd66467542016e4da71076e95b5c757240cb0fc70ade104d6ab47ed77_1280.jpg");
   background-position: 50% 50%;
   min-height: 938px;
 }
@@ -284,7 +284,7 @@
     margin-right: auto;
   }
 } .u-section-4 {
-  background-image: url("images/default-image.jpg");
+  background-image: url("/images/default-image.jpg");
   background-position: 50% 50%;
 }
 
