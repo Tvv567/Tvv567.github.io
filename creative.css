@@ -10,14 +10,14 @@
 }
 
 .u-section-1 .u-icon-1 {
-  width: 340px;
-  height: 68px;
+  width: 411px;
+  height: 82px;
   margin: 0 auto;
   padding: 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 42px;
+  margin-top: 28px;
   margin-bottom: 0;
 }
 
@@ -56,19 +56,22 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 663px;
+    min-height: 445px;
   }
 
   .u-section-1 .u-text-1 {
     font-weight: 700;
-    margin-top: 98px;
-    margin-right: calc(((100% - 720px) / 2) + 200px);
-    margin-left: calc(((100% - 720px) / 2) + 81px);
+    margin-top: 89px;
+    margin-right: calc(((100% - 720px) / 2) + 203px);
+    margin-left: calc(((100% - 720px) / 2) + 78px);
   }
 
   .u-section-1 .u-icon-1 {
-    margin-top: -9px;
     margin-right: calc(((100% - 720px) / 2) + 148px);
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 2px;
   }
 
   .u-section-1 .u-image-1 {
@@ -98,7 +101,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 553px;
+    min-height: 555px;
   }
 
   .u-section-1 .u-text-1 {
@@ -109,8 +112,14 @@
   }
 
   .u-section-1 .u-icon-1 {
-    margin-top: 0;
+    width: 375px;
+    height: 75px;
+    margin-top: -7px;
     margin-right: auto;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 42px;
   }
 
   .u-section-1 .u-image-1 {
@@ -126,8 +135,9 @@
 
 .u-section-2 .u-text-1 {
   font-weight: 700;
+  font-size: 1.25rem;
   width: 712px;
-  margin: 58px auto 0;
+  margin: 84px auto 0;
 }
 
 .u-section-2 .u-slider-1 {
@@ -135,7 +145,7 @@
   min-height: 478px;
   height: auto;
   box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
-  margin: 76px auto 60px;
+  margin: 50px auto 60px;
 }
 
 .u-section-2 .u-carousel-indicators-1 {
@@ -147,6 +157,7 @@
 
 .u-section-2 .u-image-1 {
   background-image: url("images/1.png");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -155,6 +166,7 @@
 
 .u-section-2 .u-image-2 {
   background-image: url("images/SCREENCYCLES.png");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -163,6 +175,7 @@
 
 .u-section-2 .u-image-3 {
   background-image: url("images/SCREENCYCLES.png");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -229,12 +242,14 @@
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 36px;
+    margin-top: 49px;
+    margin-left: 18px;
+    margin-right: 18px;
   }
 
   .u-section-2 .u-slider-1 {
     min-height: 191px;
-    margin-top: 50px;
+    margin-top: 37px;
     margin-bottom: 60px;
     width: auto;
     margin-right: initial;
