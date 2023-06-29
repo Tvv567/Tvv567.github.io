@@ -1,11 +1,11 @@
  .u-section-1 {
-  background-image: url("images/bf1da6d66a57e0fbce426e7b02149a5bec4f808bd0aa509643f5f9e9b9afffd66467542016e4da71076e95b5c757240cb0fc70ade104d6ab47ed77_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/bf1da6d66a57e0fbce426e7b02149a5bec4f808bd0aa509643f5f9e9b9afffd66467542016e4da71076e95b5c757240cb0fc70ade104d6ab47ed77_1280.jpg");
   background-position: 50% 50%;
   min-height: 938px;
 }
 
 .u-section-1 .u-text-1 {
-  text-shadow: 0px 0px 23px rgba(0,0,0,1);
+  text-shadow: 0px 0px 8px rgba(0,0,0,1);
   width: 832px;
   font-size: 1.875rem;
   font-weight: 700;
@@ -265,11 +265,21 @@
   }
 
   .u-section-3 .u-btn-1 {
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
     margin-top: 91px;
     margin-left: auto;
   }
 
   .u-section-3 .u-btn-2 {
+    --animation-custom_in-translate_x: -200px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
     margin-top: -119px;
     margin-right: auto;
   }
