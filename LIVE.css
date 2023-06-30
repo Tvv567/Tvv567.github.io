@@ -268,7 +268,7 @@
 
   .u-section-4 .u-image-2 {
     margin-top: -176px;
-    margin-right: 165px;
+    margin-right: 161px;
     margin-bottom: 28px;
   }
 }
@@ -285,18 +285,19 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 282px;
+    min-height: 218px;
   }
 
   .u-section-4 .u-image-1 {
-    margin-top: 131px;
-    margin-left: -15px;
+    margin-top: 81px;
+    margin-left: -16px;
   }
 
   .u-section-4 .u-image-2 {
-    margin-top: -183px;
+    width: 162px;
+    height: 162px;
+    margin-top: -140px;
     margin-right: 0;
-    margin-bottom: 35px;
   }
 } .u-section-5 {
   background-image: none;
