@@ -67,7 +67,7 @@
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
+    --animation-custom_in-scale: 0.1;
     margin-top: 69px;
     margin-left: auto;
     margin-right: auto;
