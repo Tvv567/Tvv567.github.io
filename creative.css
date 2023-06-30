@@ -94,7 +94,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 443px;
+    min-height: 455px;
   }
 
   .u-section-1 .u-text-1 {
@@ -120,9 +120,14 @@
     margin-right: auto;
   }
 
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
+    margin: 44px auto 46px;
+  }
+
   .u-section-1 .u-image-1 {
-    background-position: 17.41% 28.81%;
-    min-height: 270px;
+    background-position: 10.05% 25.78%;
+    min-height: 208px;
     background-size: auto 130%;
   }
 } .u-section-2 {
