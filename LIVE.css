@@ -7,10 +7,10 @@
 .u-section-1 .u-text-1 {
   text-shadow: 0px 0px 8px rgba(0,0,0,1);
   font-size: 1.875rem;
-  width: 832px;
   text-transform: uppercase;
   font-weight: normal;
-  margin: 215px auto 0;
+  width: 832px;
+  margin: 153px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -18,7 +18,7 @@
   font-size: 1.875rem;
   text-transform: uppercase;
   font-weight: normal;
-  margin: 38px calc(((100% - 1140px) / 2)) 0 calc(((100% - 1140px) / 2) + 24px);
+  margin: 64px 62px 0;
 }
 
 .u-section-1 .u-text-3 {
@@ -26,14 +26,14 @@
   font-size: 1.875rem;
   text-transform: uppercase;
   font-weight: normal;
-  margin: 27px 31px 0;
+  margin: 64px 31px 0;
 }
 
 .u-section-1 .u-icon-1 {
   width: 556px;
   height: 150px;
   color: rgb(252, 252, 252) !important;
-  margin: 211px auto 60px;
+  margin: 210px auto 60px;
   padding: 0;
 }
 
@@ -215,7 +215,7 @@
 
   .u-section-3 .u-image-1 {
     margin-top: -493px;
-    margin-right: 26px;
+    margin-right: 25px;
   }
 
   .u-section-3 .u-btn-1 {
