@@ -337,7 +337,7 @@
   min-height: 175px;
   width: 713px;
   height: auto;
-  margin: 173px auto 60px;
+  margin: 269px auto 0;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -350,7 +350,7 @@
   font-weight: normal;
   font-size: 1.875rem;
   width: 548px;
-  margin: 52px auto 0;
+  margin: 92px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -413,16 +413,18 @@
   .u-section-4 .u-group-1 {
     min-height: 82px;
     width: 340px;
-    margin-top: 444px;
+    margin-top: 392px;
     margin-left: auto;
-    margin-bottom: 0;
+    margin-bottom: 52px;
   }
 
   .u-section-4 .u-text-1 {
     width: auto;
     font-weight: 700;
     font-size: 1.125rem;
-    margin-top: 30px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 } .u-section-5 {
   background-image: none;
@@ -686,14 +688,14 @@
 .u-section-6 .u-text-1 {
   font-weight: 400;
   font-size: 1.25rem;
-  width: 425px;
-  margin: 41px auto 0;
+  width: 673px;
+  margin: 40px auto 0;
 }
 
 .u-section-6 .u-text-2 {
   font-weight: 700;
   width: 199px;
-  margin: 25px auto 41px;
+  margin: 25px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -706,20 +708,17 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 217px;
+  }
+
   .u-section-6 .u-text-1 {
     margin-top: 93px;
   }
 
   .u-section-6 .u-text-2 {
-    width: auto;
-    margin: 16px 245px 51px 276px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-6 .u-text-2 {
-    margin-left: 186px;
-    margin-right: 155px;
+    margin-top: 16px;
+    margin-bottom: 51px;
   }
 }
 
@@ -734,8 +733,6 @@
 
   .u-section-6 .u-text-2 {
     margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
   }
 } .u-section-7 {
   background-image: none;
@@ -884,7 +881,7 @@
 }
 
 .u-section-9 .u-image-1 {
-  background-image: url("/images/Passenger-1983.jpg");
+  background-image: url("/images/PhotoSlidebarMusic1.jpg");
   background-position: 50% 50%;
 }
 
@@ -893,7 +890,7 @@
 }
 
 .u-section-9 .u-image-2 {
-  background-image: url("/images/maxresdefault.jpg");
+  background-image: url("/images/PhotoSlidebarMusic2.jpg");
   background-position: 50% 50%;
 }
 
@@ -902,7 +899,7 @@
 }
 
 .u-section-9 .u-image-3 {
-  background-image: url("/images/dad6e03dc4384d7b611f8cc979a0392e.JPG");
+  background-image: url("/images/PhotoSlidebarMusic3.jpg");
   background-position: 50% 50%;
 }
 
@@ -911,7 +908,7 @@
 }
 
 .u-section-9 .u-image-4 {
-  background-image: url("/images/49623131-0.jpeg");
+  background-image: url("/images/PhotoSlidebarMusic4.jpg");
   background-position: 50% 50%;
 }
 
@@ -920,7 +917,7 @@
 }
 
 .u-section-9 .u-image-5 {
-  background-image: url("/images/passenger-tour-600x358.jpg");
+  background-image: url("/images/PhotoSlidebarMusic5.jpg");
   background-position: 50% 50%;
 }
 
@@ -929,7 +926,7 @@
 }
 
 .u-section-9 .u-image-6 {
-  background-image: url("/images/ghows-PJ-72272824-e040-7c53-e053-0100007f0ef8-39969908.JPG");
+  background-image: url("/images/PhotoSlidebarMusic6.jpg");
   background-position: 50% 50%;
 }
 
@@ -938,7 +935,7 @@
 }
 
 .u-section-9 .u-image-7 {
-  background-image: url("/images/ab6761610000e5ebab48d905cf4b7e027da20d50.jpg");
+  background-image: url("/images/PhotoSlidebarMusic7.jpg");
   background-position: 50% 50%;
 }
 
@@ -947,7 +944,7 @@
 }
 
 .u-section-9 .u-image-8 {
-  background-image: url("/images/passenger_-_press_photo_1__credit__shervin_lainez__wide-e877b01ceb995433f17955ef42ba637caa33fa9c.jpg");
+  background-image: url("/images/PhotoSlidebarMusic8.jpg");
   background-position: 50% 50%;
 }
 
@@ -956,7 +953,7 @@
 }
 
 .u-section-9 .u-image-9 {
-  background-image: url("/images/passenger-27-video-1413388173-view-0.png");
+  background-image: url("/images/PhotoSlidebarMusic9.jpg");
   background-position: 50% 50%;
 }
 
@@ -965,7 +962,7 @@
 }
 
 .u-section-9 .u-image-10 {
-  background-image: url("/images/0711297390421.jpg");
+  background-image: url("/images/PhotoSlidebarMusic10.jpg");
   background-position: 50% 50%;
 }
 
@@ -1050,10 +1047,6 @@
     min-height: 208px;
     width: 341px;
     margin: 32px -1px;
-  }
-
-  .u-section-9 .u-image-1 {
-    background-position: 50% 5.4%;
   }
 
   .u-section-9 .u-container-layout-5 {

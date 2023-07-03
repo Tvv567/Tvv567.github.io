@@ -23,7 +23,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 693px;
-  background-image: url("/images/myretrocar-OPTIMIZE.jpg");
+  background-image: url("/images/myretrocar-OPTIMIZE1.jpg");
   background-position: 50% 50%;
 }
 
@@ -112,9 +112,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    background-position: 10.05% 25.78%;
     min-height: 208px;
-    background-size: auto 130%;
   }
 } .u-section-2 {
   background-image: none;
