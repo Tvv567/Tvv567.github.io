@@ -121,14 +121,14 @@
   }
 
   .u-section-1 .u-icon-1 {
-    width: 339px;
-    height: 91px;
+    width: 310px;
+    height: 83px;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 0.3;
-    margin-top: 68px;
+    margin-top: 72px;
   }
 } .u-section-2 {
   background-image: none;
@@ -271,7 +271,7 @@
     margin-bottom: 26px;
   }
 } .u-section-4 {
-  background-image: url("/images/default-image.jpg");
+  background-image: url("/images/bergeoptimize.jpg");
   background-position: 50% 50%;
 }
 
