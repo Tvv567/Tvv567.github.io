@@ -314,12 +314,13 @@
   }
 
   .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
     font-weight: 400;
     margin-top: 52px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     margin-top: 12px;
   }
 
@@ -385,11 +386,13 @@
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: -494px;
+    margin-top: -528px;
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -170px;
+    width: 209px;
+    height: 112px;
+    margin-top: -127px;
     margin-bottom: 60px;
   }
 }
