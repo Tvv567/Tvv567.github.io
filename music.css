@@ -23,9 +23,9 @@
   --animation-custom_in-rotate: 180deg;
   --animation-custom_in-scale: 0.3;
   transition-duration: 0.5s;
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   text-decoration: none !important;
-  font-weight: normal;
+  font-weight: 400;
   margin: 66px 0 0;
 }
 
@@ -47,11 +47,13 @@
   transition-duration: 0.5s;
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
+  font-size: 1.5rem;
+  font-weight: 400;
   margin: 52px 30px 0;
 }
 
 .u-section-1 .u-text-4 {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   transition-duration: 0.5s;
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
@@ -64,6 +66,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-size: 1.5rem;
   font-family: Lobster, display;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -93,7 +96,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 30px;
 }
 
@@ -103,7 +106,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 30px;
 }
 
@@ -113,7 +116,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: normal;
+  font-weight: 700;
   margin: 0 30px;
 }
 
@@ -123,15 +126,15 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 30px;
 }
 
 .u-section-1 .u-text-12 {
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-size: 1.5rem;
-  font-weight: 700;
   font-family: Lobster, display;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -298,7 +301,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 735px;
+    min-height: 687px;
   }
 
   .u-section-1 .u-group-1 {
@@ -314,8 +317,6 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.5rem;
-    font-weight: 400;
     margin-top: 52px;
   }
 
@@ -326,74 +327,76 @@
 
   .u-section-1 .u-text-3 {
     width: auto;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top: 75px;
+    font-size: 1.25rem;
+    margin-top: 114px;
     margin-left: 34px;
     margin-right: 34px;
   }
 
   .u-section-1 .u-text-4 {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     width: auto;
   }
 
   .u-section-1 .u-text-5 {
+    font-size: 1.25rem;
     transition-duration: 0.5s;
     animation-timing-function: ease-in-out;
     width: auto;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-6 {
+    font-size: 1.25rem;
     width: auto;
     margin-top: 0;
   }
 
   .u-section-1 .u-text-7 {
+    font-size: 1.25rem;
     width: auto;
     margin-top: 38px;
   }
 
   .u-section-1 .u-text-8 {
+    font-size: 1.25rem;
     width: auto;
     font-family: Oswald, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-9 {
+    font-size: 1.25rem;
     width: auto;
     font-family: Lato, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-10 {
+    font-size: 1.25rem;
     width: auto;
-    font-weight: 700;
   }
 
   .u-section-1 .u-text-11 {
+    font-size: 1.25rem;
     width: auto;
     font-family: Lato, sans-serif;
     font-weight: 400;
   }
 
   .u-section-1 .u-text-12 {
+    font-size: 1.25rem;
     transition-duration: 0.5s;
     animation-timing-function: ease-in-out;
     width: auto;
     font-family: Oswald, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: -528px;
+    margin-top: -512px;
   }
 
   .u-section-1 .u-image-2 {
-    width: 209px;
-    height: 112px;
-    margin-top: -127px;
+    width: 225px;
+    height: 121px;
+    margin-top: -148px;
     margin-bottom: 60px;
   }
 }
@@ -581,30 +584,33 @@
 }
 
 .u-section-2 .u-shape-1 {
-  width: 189px;
-  height: 71px;
+  width: 130px;
+  height: 49px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 43px auto;
+  margin: 54px auto;
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 110px;
+  }
+
   .u-section-2 .u-shape-1 {
-    width: 133px;
-    height: 50px;
-    margin-top: 53px;
-    margin-bottom: 52px;
+    width: 102px;
+    height: 38px;
+    margin-top: 36px;
+    margin-bottom: 36px;
   }
 } .u-section-3 {
   min-height: 288px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .u-section-3 .u-image-1 {
@@ -621,6 +627,8 @@
   .u-section-3 .u-layout-wrap-1 {
     margin-top: 1px;
     margin-bottom: 1px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-image-1 {
@@ -656,6 +664,8 @@
   .u-section-3 .u-layout-wrap-1 {
     margin-top: 0;
     margin-bottom: 0;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-image-1 {
