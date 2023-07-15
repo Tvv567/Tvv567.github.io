@@ -7,6 +7,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  --animation-custom_in-duration: 3s;
+
 }
 
 .u-section-1 .u-group-1 {
