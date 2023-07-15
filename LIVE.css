@@ -1,4 +1,25 @@
- .u-section-1 {
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 0.3s linear;
+}
+
+.page-content {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+
+
+.u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("/images/7a31d451a47c7cc530f1d08687bbfb4f57511362dcfed9d7201be0d679676d0c05f901952b8920c86ac0cb2fe0c0f205c0834e9850bd3e7ccb5a55_1280.jpg");
   background-position: 50% 50%;
   min-height: 984px;
