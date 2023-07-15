@@ -2,6 +2,10 @@
   background-image: url("/images/b8f0e7c0adcc88a6d8253c62a8caa14a4f0ebf5e35e037493fd446de15ea7a5f1ee124e23eba198460dffc3b50df075c91a8d40a546dee46aa9775_1280.jpg");
   background-position: 50% 50%;
   min-height: 644px;
+  animation-name: Appearance;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+
 }
 
 .u-section-1 .u-group-1 {
