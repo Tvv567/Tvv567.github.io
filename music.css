@@ -126,7 +126,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 30px;
 }
 
@@ -380,7 +380,6 @@
   .u-section-1 .u-text-9 {
     width: auto;
     font-family: Lato, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-10 {
@@ -391,6 +390,8 @@
     width: auto;
     font-family: Lato, sans-serif;
     font-weight: 400;
+    margin-right: 1px;
+    margin-left: -1px;
   }
 
   .u-section-1 .u-text-12 {
@@ -2149,4 +2150,11 @@
     margin-right: auto;
     margin-bottom: 30px;
   }
+}header {
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }

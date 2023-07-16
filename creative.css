@@ -12,9 +12,13 @@
   transition: opacity 0.3s linear;
 }
 
-
-
-.u-section-1 {
+.page-content {
+  max-width: 768px;
+  margin: 0 auto;
+}
+ 
+ 
+ .u-section-1 {
   min-height: 1178px;
 }
 
@@ -115,10 +119,19 @@
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 716px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-top: 60px;
-    margin-right: calc(((100% - 540px) / 2) + 191px);
-    margin-left: calc(((100% - 540px) / 2) + -29px);
+    width: 378px;
+    margin-top: 66px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-top: -6px;
   }
 
   .u-section-1 .u-image-1 {
@@ -145,8 +158,6 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-section-1 .u-icon-1 {
