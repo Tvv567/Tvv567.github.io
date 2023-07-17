@@ -1,5 +1,4 @@
- 
- .preloader {
+.preloader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +16,7 @@
   max-width: 768px;
   margin: 0 auto;
 }
+ 
  
  .u-section-1 {
   min-height: 1178px;
