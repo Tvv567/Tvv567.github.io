@@ -17,8 +17,9 @@
   margin: 0 auto;
 }
  
+ 
  .u-section-1 {
-  background-image: url("/images/MusicMain.jpg");
+  background-image: url("/images/1677165938_bogatyr-club-p-biryuzovie-oboi-na-rabochii-stol-fon-vkont-69.jpg");
   background-position: 50% 50%;
   min-height: 762px;
 }
@@ -50,7 +51,7 @@
   transition-duration: 0.5s;
   font-size: 1.5rem;
   text-decoration: none !important;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -181,7 +182,6 @@
 
   .u-section-1 .u-text-1 {
     width: auto;
-    font-weight: 400;
     margin-top: 23px;
   }
 
@@ -346,12 +346,13 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 696px;
+    min-height: 649px;
   }
 
   .u-section-1 .u-group-1 {
     width: 340px;
-    min-height: 680px;
+    min-height: 576px;
+    margin-bottom: 37px;
   }
 
   .u-section-1 .u-shape-1 {
@@ -375,7 +376,7 @@
   .u-section-1 .u-text-3 {
     width: auto;
     font-weight: 400;
-    margin-top: 158px;
+    margin-top: 95px;
     margin-left: 34px;
     margin-right: 34px;
   }
