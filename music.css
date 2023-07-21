@@ -16,6 +16,7 @@
   max-width: 768px;
   margin: 0 auto;
 }
+
  
  
  .u-section-1 {
@@ -1638,6 +1639,7 @@
 .u-section-10 .u-text-2 {
   width: 175px;
   font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   margin: -373px auto 0;
 }
 
