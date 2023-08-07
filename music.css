@@ -1377,8 +1377,8 @@
   .u-section-8 .u-slider-1 {
     min-height: 208px;
     width: 341px;
-    margin-left: -1px;
-    margin-right: -1px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-8 .u-container-layout-5 {
