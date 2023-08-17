@@ -1,5 +1,4 @@
- 
- .preloader {
+.preloader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +16,6 @@
   max-width: 768px;
   margin: 0 auto;
 }
-
  
  
  .u-section-1 {
@@ -736,7 +734,7 @@
 }
 
 .u-section-4 .u-layout-cell-1 {
-  min-height: 500px;
+  min-height: 643px;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -746,7 +744,7 @@
 .u-section-4 .u-image-1 {
   height: 279px;
   width: 279px;
-  margin: 148px auto 0;
+  margin: 222px auto 0;
 }
 
 .u-section-4 .u-layout-cell-2 {
@@ -770,10 +768,6 @@
 }
 
 .u-section-4 .u-text-2 {
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: normal;
   margin: 64px 6px 0;
 }
 
@@ -944,7 +938,7 @@
 
 @media (max-width: 575px) {
    .u-section-4 {
-    min-height: 552px;
+    min-height: 448px;
   }
 
   .u-section-4 .u-sheet-1 {
@@ -952,22 +946,22 @@
   }
 
   .u-section-4 .u-layout-wrap-1 {
-    margin-bottom: 9px;
+    margin-bottom: 49px;
   }
 
   .u-section-4 .u-layout-cell-1 {
-    min-height: 476px;
+    min-height: 415px;
   }
 
   .u-section-4 .u-image-1 {
-    height: 237px;
-    width: 237px;
-    margin-top: 152px;
+    height: 205px;
+    width: 205px;
+    margin-top: 151px;
     margin-left: auto;
   }
 
   .u-section-4 .u-layout-cell-2 {
-    min-height: 698px;
+    min-height: 720px;
   }
 
   .u-section-4 .u-text-1 {
@@ -975,22 +969,22 @@
   }
 
   .u-section-4 .u-text-2 {
-    font-style: italic;
-    position: relative;
-    letter-spacing: 0px;
-    margin-top: 10px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-top: 24px;
+    margin-left: 26px;
+    margin-right: 26px;
   }
 
   .u-section-4 .u-btn-2 {
-    margin-top: 58px;
+    margin-top: 57px;
     margin-right: 34px;
+    padding-bottom: 9px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   .u-section-4 .u-text-3 {
-    margin-top: -1054px;
-    margin-bottom: 929px;
+    margin-top: -1043px;
+    margin-bottom: 1017px;
   }
 } .u-section-5 {
   background-image: none;
@@ -1215,7 +1209,7 @@
 }
 
 .u-section-8 .u-image-1 {
-  background-image: url("images/PhotoSlidebarMusic11.jpg");
+  background-image: url("images/PhotoSlidebarMusic12.jpg");
   background-position: 50% 50%;
 }
 
@@ -1224,7 +1218,7 @@
 }
 
 .u-section-8 .u-image-2 {
-  background-image: url("images/PhotoSlidebarMusic21.jpg");
+  background-image: url("images/PhotoSlidebarMusic22.jpg");
   background-position: 50% 50%;
 }
 
@@ -1233,7 +1227,7 @@
 }
 
 .u-section-8 .u-image-3 {
-  background-image: url("images/PhotoSlidebarMusic31.jpg");
+  background-image: url("images/PhotoSlidebarMusic32.jpg");
   background-position: 50% 50%;
 }
 
@@ -1242,7 +1236,7 @@
 }
 
 .u-section-8 .u-image-4 {
-  background-image: url("images/PhotoSlidebarMusic41.jpg");
+  background-image: url("images/PhotoSlidebarMusic42.jpg");
   background-position: 50% 50%;
 }
 
@@ -1251,7 +1245,7 @@
 }
 
 .u-section-8 .u-image-5 {
-  background-image: url("images/PhotoSlidebarMusic51.jpg");
+  background-image: url("images/PhotoSlidebarMusic52.jpg");
   background-position: 50% 50%;
 }
 
@@ -1531,6 +1525,8 @@
 
   .u-section-9 .u-btn-1 {
     margin-top: 51px;
+    padding-right: 25px;
+    padding-left: 24px;
   }
 } .u-section-10 {
   background-image: none;
@@ -1956,6 +1952,8 @@
 
   .u-section-11 .u-btn-2 {
     margin-top: 55px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   .u-section-11 .u-icon-1 {
