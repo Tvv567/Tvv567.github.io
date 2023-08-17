@@ -1,24 +1,3 @@
-.preloader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background: rgb(255, 0, 0);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  transition: opacity 0.3s linear;
-}
-
-.page-content {
-  max-width: 768px;
-  margin: 0 auto;
-}
-
- 
- 
  .u-section-1 {
   min-height: 1178px;
 }
@@ -43,7 +22,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  background-image: url("/images/1.jpg");
+  background-image: url("images/1.jpg");
   background-position: 50% 50%;
   min-height: 854px;
 }
@@ -234,7 +213,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: url("/images/CreativeSlide1.jpg");
+  background-image: url("images/CreativeSlide1.jpg");
   background-position: 50% 50%;
 }
 
@@ -243,7 +222,7 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: url("/images/CreativeSlide2.jpg");
+  background-image: url("images/CreativeSlide2.jpg");
   background-position: 50% 50%;
 }
 
@@ -252,7 +231,7 @@
 }
 
 .u-section-2 .u-image-3 {
-  background-image: url("/images/CreativeSlide3.jpg");
+  background-image: url("images/CreativeSlide3.jpg");
   background-position: 50% 50%;
 }
 
