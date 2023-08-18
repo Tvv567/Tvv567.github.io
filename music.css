@@ -896,16 +896,15 @@
 
 @media (max-width: 767px) {
    .u-section-4 {
-    min-height: 1133px;
+    min-height: 1320px;
   }
 
   .u-section-4 .u-sheet-1 {
-    min-height: 1014px;
+    min-height: 995px;
   }
 
   .u-section-4 .u-layout-wrap-1 {
     margin-top: 18px;
-    margin-bottom: 18px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -948,20 +947,15 @@
 
 @media (max-width: 575px) {
    .u-section-4 {
-    min-height: 448px;
+    min-height: 800px;
   }
 
   .u-section-4 .u-sheet-1 {
-    min-height: 1070px;
-  }
-
-  .u-section-4 .u-layout-wrap-1 {
-    margin-top: 1px;
-    margin-bottom: 1px;
+    min-height: 1018px;
   }
 
   .u-section-4 .u-layout-cell-1 {
-    min-height: 387px;
+    min-height: 369px;
   }
 
   .u-section-4 .u-image-1 {
@@ -970,7 +964,7 @@
   }
 
   .u-section-4 .u-layout-cell-2 {
-    min-height: 664px;
+    min-height: 632px;
   }
 
   .u-section-4 .u-text-1 {
@@ -986,15 +980,15 @@
   }
 
   .u-section-4 .u-btn-2 {
-    margin-top: 55px;
-    margin-right: 26px;
+    margin-top: 43px;
+    margin-right: 25px;
     padding-bottom: 9px;
     padding-left: 29px;
     padding-right: 29px;
   }
 
   .u-section-4 .u-text-3 {
-    margin-top: -892px;
+    margin-top: -880px;
   }
 } .u-section-5 {
   background-image: none;
@@ -1066,17 +1060,17 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 109px;
+    min-height: 116px;
   }
 
   .u-section-5 .u-text-1 {
     font-size: 1.125rem;
-    margin-top: 9px;
+    margin-top: 7px;
   }
 
   .u-section-5 .u-text-2 {
     margin-top: 8px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
   }
 } .u-section-6 {
   background-image: none;
@@ -1127,14 +1121,8 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 189px;
-  }
-
   .u-section-6 .u-audio-1 {
     width: 320px;
-    margin-top: 36px;
-    margin-bottom: 36px;
   }
 } .u-section-7 {
   background-image: none;
@@ -1572,10 +1560,11 @@
   }
 
   .u-section-9 .u-btn-1 {
+    border-style: dotted;
     margin-top: 58px;
     margin-right: auto;
-    padding-right: 25px;
-    padding-left: 24px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 } .u-section-10 {
   background-image: none;
@@ -2048,16 +2037,12 @@
 
 @media (max-width: 991px) {
   .u-section-12 .u-sheet-1 {
-    min-height: 143px;
+    min-height: 144px;
   }
 
   .u-section-12 .u-text-1 {
     margin-top: 76px;
     margin-left: 288px;
-  }
-
-  .u-section-12 .u-text-2 {
-    margin-bottom: 29px;
   }
 }
 
