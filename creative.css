@@ -148,8 +148,8 @@
     --animation-custom_in-scale: 1;
     width: auto;
     margin-top: 50px;
-    margin-right: 69px;
-    margin-left: 91px;
+    margin-right: calc(((100% - 340px) / 2) + 19px);
+    margin-left: calc(((100% - 340px) / 2) + 27px);
   }
 
   .u-section-1 .u-icon-1 {
