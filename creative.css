@@ -1,5 +1,4 @@
- 
- .preloader {
+.preloader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,9 +147,9 @@
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
     width: auto;
-    margin-top: 75px;
-    margin-right: calc(((100% - 340px) / 2) + 19px);
-    margin-left: calc(((100% - 340px) / 2) + 41px);
+    margin-top: 50px;
+    margin-right: 69px;
+    margin-left: 91px;
   }
 
   .u-section-1 .u-icon-1 {
@@ -164,7 +163,7 @@
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 45px;
+    margin-top: 70px;
   }
 
   .u-section-1 .u-image-1 {
@@ -183,15 +182,15 @@
   }
 
   .u-section-1 .u-icon-2 {
-    margin-top: -360px;
+    margin-top: -385px;
     margin-bottom: 0;
-    margin-left: calc(((100% - 340px) / 2) + 27px);
+    margin-left: 77px;
   }
 
   .u-section-1 .u-shape-1 {
     width: 112px;
     height: 27px;
-    margin-top: 313px;
+    margin-top: 338px;
     margin-bottom: 14px;
   }
 } .u-section-2 {
