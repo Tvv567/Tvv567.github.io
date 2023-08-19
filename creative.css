@@ -16,7 +16,7 @@
   max-width: 768px;
   margin: 0 auto;
 }
- 
+
  
  .u-section-1 {
   min-height: 1178px;
@@ -148,8 +148,8 @@
     --animation-custom_in-scale: 1;
     width: auto;
     margin-top: 50px;
-    margin-right: calc(((100% - 340px) / 2) + 19px);
-    margin-left: calc(((100% - 340px) / 2) + 27px);
+    margin-right: calc(((100% - 340px) / 2));
+    margin-left: calc(((100% - 340px) / 2) + 46px);
   }
 
   .u-section-1 .u-icon-1 {

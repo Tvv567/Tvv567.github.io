@@ -16,6 +16,7 @@
   max-width: 768px;
   margin: 0 auto;
 }
+
  
  .u-section-1 {
   background-image: url("images/1677165938_bogatyr-club-p-biryuzovie-oboi-na-rabochii-stol-fon-vkont-69.jpg");
@@ -981,13 +982,14 @@
   .u-section-4 .u-btn-2 {
     margin-top: 43px;
     margin-right: 25px;
+    padding-right: 30px;
     padding-bottom: 9px;
     padding-left: 29px;
-    padding-right: 29px;
   }
 
   .u-section-4 .u-text-3 {
     margin-top: -880px;
+    margin-bottom: 854px;
   }
 } .u-section-5 {
   background-image: none;
@@ -1068,8 +1070,8 @@
   }
 
   .u-section-5 .u-text-2 {
-    margin-top: 8px;
-    margin-bottom: 12px;
+    margin-top: 7px;
+    margin-bottom: 18px;
   }
 } .u-section-6 {
   background-image: none;
@@ -1242,7 +1244,7 @@
 }
 
 .u-section-8 .u-container-layout-3 {
-  padding: 0;
+  padding: 30px 50px;
 }
 
 .u-section-8 .u-image-4 {
@@ -1303,6 +1305,11 @@
     padding-right: 30px;
   }
 
+  .u-section-8 .u-container-layout-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .u-section-8 .u-container-layout-4 {
     padding-left: 30px;
     padding-right: 30px;
@@ -1334,6 +1341,11 @@
     padding-right: 10px;
   }
 
+  .u-section-8 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .u-section-8 .u-container-layout-4 {
     padding-left: 10px;
     padding-right: 10px;
@@ -1361,6 +1373,11 @@
     width: 341px;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .u-section-8 .u-container-layout-3 {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .u-section-8 .u-container-layout-4 {
@@ -1554,16 +1571,16 @@
   .u-section-9 .u-text-2 {
     font-size: 1rem;
     margin-top: 46px;
-    margin-right: 26px;
-    margin-left: 0;
+    margin-left: 13px;
+    margin-right: 13px;
   }
 
   .u-section-9 .u-btn-1 {
-    border-style: dotted;
-    margin-top: 58px;
+    margin-top: 59px;
     margin-right: auto;
-    padding-left: 23px;
-    padding-right: 23px;
+    padding-right: 25px;
+    padding-bottom: 9px;
+    padding-left: 24px;
   }
 } .u-section-10 {
   background-image: none;
@@ -1989,8 +2006,9 @@
 
   .u-section-11 .u-btn-2 {
     margin-top: 55px;
+    padding-right: 30px;
+    padding-bottom: 9px;
     padding-left: 29px;
-    padding-right: 29px;
   }
 
   .u-section-11 .u-icon-1 {
