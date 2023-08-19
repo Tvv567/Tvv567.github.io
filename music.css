@@ -17,8 +17,8 @@
   margin: 0 auto;
 }
 
- 
- .u-section-1 {
+
+.u-section-1 {
   background-image: url("images/1677165938_bogatyr-club-p-biryuzovie-oboi-na-rabochii-stol-fon-vkont-69.jpg");
   background-position: 50% 50%;
   min-height: 762px;
@@ -1550,7 +1550,7 @@
 
   .u-section-9 .u-layout-wrap-1 {
     width: 314px;
-    margin: 10px 0 59px auto;
+    margin: 10px auto 59px;
   }
 
   .u-section-9 .u-layout-cell-1 {
