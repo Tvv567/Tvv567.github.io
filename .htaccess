@@ -1,1 +1,4 @@
-Options -Indexes
+Options -Indexes<Files ~ "\assets$">  
+ Order Allow,Deny  
+ Deny from All  
+</Files>
