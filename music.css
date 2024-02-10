@@ -1,3 +1,4 @@
+
 .preloader {
   display: flex;
   justify-content: center;
@@ -16,9 +17,9 @@
   max-width: 768px;
   margin: 0 auto;
 }
- 
- 
- .u-section-1 {
+
+
+.u-section-1 {
   background-image: url("images/1677165938_bogatyr-club-p-biryuzovie-oboi-na-rabochii-stol-fon-vkont-69.jpg");
   background-position: 50% 50%;
   min-height: 762px;
