@@ -169,6 +169,12 @@
   object-position: 50% 48.23%;
   width: 440px;
   margin: 0 -50px;
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-image-1 {
+    border-style: solid;
+  }
 } .u-section-3 {
   background-image: none;
   min-height: 161px;
@@ -268,13 +274,13 @@
   }
 
   .u-section-3 .u-image-1 {
-    margin-top: -482px;
+    margin-top: -477px;
     margin-right: calc(((100% - 340px) / 2) + 43px);
     margin-left: auto;
   }
 
   .u-section-3 .u-btn-1 {
-    margin-top: 426px;
+    margin-top: 421px;
     margin-left: auto;
     padding-left: 31px;
     padding-right: 31px;
