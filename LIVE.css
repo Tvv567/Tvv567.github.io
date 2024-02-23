@@ -15,7 +15,9 @@
 .page-content {
   max-width: 768px;
   margin: 0 auto;
-} 
+}
+
+ 
  
  .u-section-1 {
   background-image: url("images/MAIN3.jpg");
@@ -257,13 +259,13 @@
   }
 
   .u-section-3 .u-image-1 {
-    margin-top: -445px;
-    margin-right: calc(((100% - 340px) / 2) + 46px);
+    margin-top: -461px;
+    margin-right: calc(((100% - 340px) / 2) + 58px);
     margin-left: auto;
   }
 
   .u-section-3 .u-btn-1 {
-    margin-top: 391px;
+    margin-top: 407px;
     margin-left: auto;
     padding-left: 31px;
     padding-right: 31px;
