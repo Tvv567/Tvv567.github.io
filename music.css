@@ -18,17 +18,14 @@
 }
  
  
- 
  .u-section-1 {
-  background-image: url("images/1677165938_bogatyr-club-p-biryuzovie-oboi-na-rabochii-stol-fon-vkont-69.jpg");
-  background-position: 50% 50%;
-  min-height: 762px;
+  background-image: none;
 }
 
 .u-section-1 .u-group-1 {
   width: 856px;
   height: auto;
-  min-height: 600px;
+  min-height: 624px;
   margin: 0 auto;
 }
 
@@ -52,8 +49,8 @@
   transition-duration: 0.5s;
   font-size: 1.5rem;
   text-decoration: none !important;
-  font-weight: 400;
-  margin: 0;
+  font-weight: normal;
+  margin: 51px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -75,8 +72,8 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-size: 1.25rem;
-  font-weight: 400;
-  margin: 135px 30px 0;
+  font-weight: normal;
+  margin: 80px 30px 0;
 }
 
 .u-section-1 .u-text-4 {
@@ -93,7 +90,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-size: 1.25rem;
   font-family: Lobster, display;
-  font-weight: 400;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -104,7 +101,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
   font-weight: 700;
-  margin: 38px 30px 0;
+  margin: 0 30px;
 }
 
 .u-section-1 .u-text-7 {
@@ -113,7 +110,8 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  margin: 0 30px;
+  font-weight: normal;
+  margin: 32px 30px 0;
 }
 
 .u-section-1 .u-text-8 {
@@ -122,7 +120,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: 400;
+  font-weight: normal;
   margin: 0 30px;
 }
 
@@ -132,7 +130,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: 400;
+  font-weight: normal;
   margin: 0 30px;
 }
 
@@ -152,7 +150,7 @@
   animation-timing-function: ease-in-out;
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-family: Lobster, display;
-  font-weight: 400;
+  font-weight: normal;
   margin: 0 30px;
 }
 
@@ -160,19 +158,18 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,1);
   font-size: 1.25rem;
   font-family: Lobster, display;
-  font-weight: 400;
+  font-weight: normal;
   margin: 0;
 }
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 746px;
+    min-height: 644px;
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 644px;
+    min-height: 593px;
     margin-top: 51px;
-    margin-bottom: 51px;
     height: auto;
   }
 
@@ -192,7 +189,7 @@
 
   .u-section-1 .u-text-3 {
     width: 272px;
-    margin-top: 144px;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -211,7 +208,7 @@
 
   .u-section-1 .u-text-7 {
     width: auto;
-    font-weight: normal;
+    margin-top: 38px;
   }
 
   .u-section-1 .u-text-8 {
@@ -237,12 +234,12 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 797px;
+    min-height: 715px;
   }
 
   .u-section-1 .u-group-1 {
     width: 720px;
-    min-height: 659px;
+    min-height: 664px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -255,16 +252,22 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 0;
+    font-weight: 400;
+    margin-top: 51px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-top: 182px;
+    font-weight: 400;
+    margin-top: 75px;
   }
 
   .u-section-1 .u-text-4 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    font-weight: 400;
   }
 
   .u-section-1 .u-text-6 {
@@ -278,11 +281,13 @@
   }
 
   .u-section-1 .u-text-8 {
+    font-weight: 400;
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-1 .u-text-9 {
+    font-weight: 400;
     margin-left: 0;
     margin-right: 0;
   }
@@ -293,21 +298,19 @@
   }
 
   .u-section-1 .u-text-11 {
+    font-weight: 400;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .u-section-1 .u-text-12 {
+    font-weight: 400;
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 764px;
-  }
-
   .u-section-1 .u-group-1 {
     width: 540px;
-    min-height: 664px;
-    margin-top: 37px;
-    margin-bottom: 60px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -325,45 +328,28 @@
   .u-section-1 .u-text-3 {
     width: 342px;
     margin-top: 125px;
-    font-weight: normal;
-  }
-
-  .u-section-1 .u-text-5 {
-    font-weight: normal;
-  }
-
-  .u-section-1 .u-text-8 {
-    font-weight: normal;
-  }
-
-  .u-section-1 .u-text-9 {
-    font-weight: normal;
-  }
-
-  .u-section-1 .u-text-11 {
-    font-weight: normal;
-  }
-
-  .u-section-1 .u-text-12 {
-    font-weight: normal;
   }
 }
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 649px;
+    min-height: 613px;
   }
 
   .u-section-1 .u-group-1 {
     width: 340px;
     min-height: 576px;
-    margin-bottom: 37px;
+    margin-top: 37px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 2px;
   }
 
   .u-section-1 .u-shape-1 {
     height: 30px;
     width: 179px;
-    margin-top: 13px;
+    margin-top: 3px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -379,45 +365,33 @@
   }
 
   .u-section-1 .u-text-3 {
-    width: 272px;
-    font-weight: 400;
-    margin-top: 81px;
+    width: auto;
+    margin-top: 69px;
+    margin-right: 36px;
+    margin-left: 32px;
   }
 
   .u-section-1 .u-text-5 {
     transition-duration: 0.5s;
     animation-timing-function: ease-in-out;
-    font-weight: 400;
-  }
-
-  .u-section-1 .u-text-6 {
-    margin-top: 0;
-  }
-
-  .u-section-1 .u-text-7 {
-    margin-top: 38px;
   }
 
   .u-section-1 .u-text-8 {
     font-family: Oswald, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-9 {
     font-family: Lato, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-11 {
     font-family: Lato, sans-serif;
-    font-weight: 400;
   }
 
   .u-section-1 .u-text-12 {
     transition-duration: 0.5s;
     animation-timing-function: ease-in-out;
     font-family: Oswald, sans-serif;
-    font-weight: 400;
   }
 }
 
