@@ -235,17 +235,17 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 244px;
+    min-height: 245px;
   }
 
   .u-section-3 .u-image-1 {
-    margin-top: -444px;
-    margin-right: calc(((100% - 340px) / 2) + 47px);
+    margin-top: -445px;
+    margin-right: calc(((100% - 340px) / 2) + 46px);
     margin-left: auto;
   }
 
   .u-section-3 .u-btn-1 {
-    margin-top: 390px;
+    margin-top: 391px;
     margin-left: auto;
     padding-left: 31px;
     padding-right: 31px;
