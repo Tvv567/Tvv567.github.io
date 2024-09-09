@@ -7,18 +7,26 @@
       document.addEventListener('DOMContentLoaded', function() {
           // Проверяем, перенаправлялся ли уже пользователь
           if (!localStorage.getItem('redirected')) {
+              console.log('Checking location...');
+              
               fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
               .then(response => response.json())
               .then(data => {
+                  console.log('Location data:', data);
                   if (data.country === 'RU') {
+                      console.log('User is in Russia, redirecting...');
                       // Устанавливаем флаг и перенаправляем
                       localStorage.setItem('redirected', 'true');
                       window.location.href = '/verboten.html'; // Путь к странице блокировки
+                  } else {
+                      console.log('User is not in Russia, no action taken.');
                   }
               })
               .catch(error => {
                   console.error('Ошибка получения данных о местоположении:', error);
               });
+          } else {
+              console.log('User already redirected.');
           }
       });
   </script>
