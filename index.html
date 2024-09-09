@@ -4,22 +4,24 @@
   <head>
  
     <script>
-      // Проверяем, что текущая страница не является страницей блокировки
-      if (window.location.pathname !== '/verboten.html') {
-          fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
-          .then(response => response.json())
-          .then(data => {
-              if (data.country === 'RU') {
-                  // Перенаправляем только если не на странице блокировки
-                  window.location.href = 'https://resch.live/verboten.html';
-              }
-          })
-          .catch(error => {
-              console.error('Ошибка получения данных о местоположении:', error);
-          });
-      }
-  </script>
-
+      document.addEventListener('DOMContentLoaded', function() {
+          // Проверяем, перенаправлялся ли уже пользователь
+          if (!localStorage.getItem('redirected')) {
+              fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
+              .then(response => response.json())
+              .then(data => {
+                  if (data.country === 'RU') {
+                      // Устанавливаем флаг и перенаправляем
+                      localStorage.setItem('redirected', 'true');
+                      window.location.href = '/verboten.html';
+                  }
+              })
+              .catch(error => {
+                  console.error('Ошибка получения данных о местоположении:', error);
+              });
+          }
+      });
+  </script>  
 
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
    <meta name="description" content="​ Ich freue mich, dich auf meiner offizielle​n Website zu sehen!"/>
