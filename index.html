@@ -3,24 +3,27 @@
 <html class="nojs html" lang="de-DE">
   <head>
  
+    <script>
+      fetch('http://ip-api.com/json/')
+      .then(response => response.json())
+      .then(data => {
+          if (data.countryCode === 'RU') {
+              // Перенаправление на другую страницу или вывод сообщения
+              window.location.href = 'https://resch.live/Verboten.html; // Страница для блокировки
+          }
+      })
+      .catch(error => {
+          console.error('Ошибка получения данных о местоположении:', error);
+      });
+  </script>
+
+
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
    <meta name="description" content="​ Ich freue mich, dich auf meiner offizielle​n Website zu sehen!"/>
    <meta name="keywords" content="Live,  "/>
    <meta name="generator" content="2018.1.1.386"/>
  
-   <script>
-    fetch('http://ip-api.com/json/')
-    .then(response => response.json())
-    .then(data => {
-        if (data.countryCode === 'RU') {
-            // Перенаправление на другую страницу или вывод сообщения
-            window.location.href = 'https://resch.live/Verboten.html; // Страница для блокировки
-        }
-    })
-    .catch(error => {
-        console.error('Ошибка получения данных о местоположении:', error);
-    });
-</script>
+   
 
 
    <script type="text/javascript">
