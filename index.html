@@ -3,20 +3,19 @@
 <html class="nojs html" lang="de-DE">
   <head>
  
-    <title>Access Restricted</title>
     <script>
-        fetch('https://ip-api.com/json/')
-        .then(response => response.json())
-        .then(data => {
-            if (data.countryCode === 'RU') {
-                // Перенаправление на другую страницу или вывод сообщения
-                window.location.href = 'https://resch.live/Verboten.html'; // Страница для блокировки
-            }
-        })
-        .catch(error => {
-            console.error('Ошибка получения данных о местоположении:', error);
-        });
-    </script>
+      fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
+      .then(response => response.json())
+      .then(data => {
+          if (data.country === 'RU') {
+              // Перенаправление на другую страницу или вывод сообщения
+              window.location.href = 'https://example.com/blocked'; // Страница для блокировки
+          }
+      })
+      .catch(error => {
+          console.error('Ошибка получения данных о местоположении:', error);
+      });
+  </script>  
 
 
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
