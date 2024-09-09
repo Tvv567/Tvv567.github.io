@@ -5,7 +5,7 @@
  
     <script>
       // Проверяем, что текущая страница не является страницей блокировки
-      if (window.location.pathname !== '/blocked.html') {
+      if (window.location.pathname !== '/verboten.html') {
           fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
           .then(response => response.json())
           .then(data => {
@@ -19,7 +19,6 @@
           });
       }
   </script>
-
 
 
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
