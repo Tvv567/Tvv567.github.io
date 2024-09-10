@@ -4,34 +4,17 @@
   <head>
  
 
-    <style>
-      /* Скрываем содержимое страницы до проверки */
-      body {
-          display: none;
-      }
-  </style>
-</head>
-<body>
- 
-  <script>
-      // Получаем информацию о регионе пользователя
+    <script>
       fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
       .then(response => response.json())
       .then(data => {
           if (data.country === 'RU') {
-              // Если страна Россия, делаем задержку перед редиректом
-              setTimeout(function() {
-                  window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
-              }, 200); // 200 миллисекунд задержки
-          } else {
-              // Если регион не заблокирован, отображаем содержимое
-              document.body.style.display = 'block';
+              // Перенаправление на другую страницу или вывод сообщения
+              window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница для блокировки
           }
       })
       .catch(error => {
           console.error('Ошибка получения данных о местоположении:', error);
-          // В случае ошибки отображаем содержимое страницы
-          document.body.style.display = 'block';
       });
   </script>
 
@@ -116,6 +99,35 @@
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="de">
+
+    <style>
+      /* Скрываем содержимое страницы до проверки */
+      body {
+          display: none;
+      }
+  </style>
+  <script>
+      // Получаем информацию о регионе пользователя
+      fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
+      .then(response => response.json())
+      .then(data => {
+          if (data.country === 'RU') {
+              // Если страна Россия, делаем задержку перед редиректом
+              setTimeout(function() {
+                  window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
+              }, 200); // 200 миллисекунд задержки
+          } else {
+              // Если регион не заблокирован, отображаем содержимое
+              document.body.style.display = 'block';
+          }
+      })
+      .catch(error => {
+          console.error('Ошибка получения данных о местоположении:', error);
+          // В случае ошибки отображаем содержимое страницы
+          document.body.style.display = 'block';
+      });
+  </script>
+
 
     <div class="preloader">
     </div>
