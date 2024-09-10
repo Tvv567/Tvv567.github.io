@@ -9,25 +9,37 @@
           visibility: hidden; /* Используем visibility, чтобы скрыть содержимое, но сохранить место для него */
       }
   </style>
-     
-     <script>
-      // Получаем информацию о регионе пользователя
-      fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
-      .then(response => response.json())
-      .then(data => {
-          if (data.country === 'RU') {
-              // Если страна Россия, перенаправляем сразу
-              window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
-          } else {
-              // Если регион не заблокирован, отображаем содержимое
-              document.body.style.visibility = 'visible'; // Показываем содержимое
-          }
-      })
-      .catch(error => {
-          console.error('Ошибка получения данных о местоположении:', error);
-          // В случае ошибки отображаем содержимое страницы
-          document.body.style.visibility = 'visible'; // Показываем содержимое
-      });
+
+
+  <script>
+      // Функция для проверки региона и обработки результата
+      function checkRegion() {
+          fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
+          .then(response => response.json())
+          .then(data => {
+              if (data.country === 'RU') {
+                  // Если страна Россия, добавляем задержку перед перенаправлением
+                  setTimeout(() => {
+                      window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
+                  }, 200); // Задержка в 200 миллисекунд
+              } else {
+                  // Если регион не заблокирован, добавляем задержку перед отображением содержимого
+                  setTimeout(() => {
+                      document.body.style.visibility = 'visible'; // Показываем содержимое
+                  }, 200); // Задержка в 200 миллисекунд
+              }
+          })
+          .catch(error => {
+              console.error('Ошибка получения данных о местоположении:', error);
+              // В случае ошибки добавляем задержку перед отображением содержимого
+              setTimeout(() => {
+                  document.body.style.visibility = 'visible'; // Показываем содержимое
+              }, 200); // Задержка в 200 миллисекунд
+          });
+      }
+
+      // Запускаем проверку региона
+      checkRegion();
   </script>
 
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
