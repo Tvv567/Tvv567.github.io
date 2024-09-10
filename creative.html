@@ -4,7 +4,18 @@
   <head>
  
 
-    <script>
+    <style>
+      /* Скрываем содержимое страницы до проверки */
+      body {
+          display: none;
+      }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the site</h1>
+  <p>If you see this, you are not blocked.</p>
+
+  <script>
       // Получаем информацию о регионе пользователя
       fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
       .then(response => response.json())
@@ -14,10 +25,15 @@
               setTimeout(function() {
                   window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
               }, 200); // 200 миллисекунд задержки
+          } else {
+              // Если регион не заблокирован, отображаем содержимое
+              document.body.style.display = 'block';
           }
       })
       .catch(error => {
           console.error('Ошибка получения данных о местоположении:', error);
+          // В случае ошибки отображаем содержимое страницы
+          document.body.style.display = 'block';
       });
   </script>
 
