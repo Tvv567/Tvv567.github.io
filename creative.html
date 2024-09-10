@@ -4,18 +4,43 @@
   <head>
  
 
-    <script>
-      fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
-      .then(response => response.json())
-      .then(data => {
-          if (data.country === 'RU') {
-              // Перенаправление на другую страницу или вывод сообщения
-              window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница для блокировки
-          }
-      })
-      .catch(error => {
-          console.error('Ошибка получения данных о местоположении:', error);
-      });
+    <style>
+      /* Скрываем содержимое страницы до выполнения скрипта */
+      body {
+          visibility: hidden; /* Используем visibility, чтобы скрыть содержимое, но сохранить место для него */
+      }
+  </style>
+
+
+  <script>
+      // Функция для проверки региона и обработки результата
+      function checkRegion() {
+          fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
+          .then(response => response.json())
+          .then(data => {
+              if (data.country === 'RU') {
+                  // Если страна Россия, добавляем задержку перед перенаправлением
+                  setTimeout(() => {
+                      window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
+                  }, 200); // Задержка в 200 миллисекунд
+              } else {
+                  // Если регион не заблокирован, добавляем задержку перед отображением содержимого
+                  setTimeout(() => {
+                      document.body.style.visibility = 'visible'; // Показываем содержимое
+                  }, 200); // Задержка в 200 миллисекунд
+              }
+          })
+          .catch(error => {
+              console.error('Ошибка получения данных о местоположении:', error);
+              // В случае ошибки добавляем задержку перед отображением содержимого
+              setTimeout(() => {
+                  document.body.style.visibility = 'visible'; // Показываем содержимое
+              }, 200); // Задержка в 200 миллисекунд
+          });
+      }
+
+      // Запускаем проверку региона
+      checkRegion();
   </script>
 
 
