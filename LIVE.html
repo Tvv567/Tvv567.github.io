@@ -10,7 +10,6 @@
       }
   </style>
 
-
   <script>
       // Функция для проверки региона и обработки результата
       function checkRegion() {
@@ -18,23 +17,17 @@
           .then(response => response.json())
           .then(data => {
               if (data.country === 'RU') {
-                  // Если страна Россия, добавляем задержку перед перенаправлением
-                  setTimeout(() => {
-                      window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
-                  }, 600); // Задержка в 600 миллисекунд
+                  // Если страна Россия, перенаправляем сразу
+                  window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
               } else {
-                  // Если регион не заблокирован, добавляем задержку перед отображением содержимого
-                  setTimeout(() => {
-                      document.body.style.visibility = 'visible'; // Показываем содержимое
-                  }, 600); // Задержка в 600 миллисекунд
+                  // Если регион не заблокирован, отображаем содержимое
+                  document.body.style.visibility = 'visible'; // Показываем содержимое
               }
           })
           .catch(error => {
               console.error('Ошибка получения данных о местоположении:', error);
-              // В случае ошибки добавляем задержку перед отображением содержимого
-              setTimeout(() => {
-                  document.body.style.visibility = 'visible'; // Показываем содержимое
-              }, 600); // Задержка в 600 миллисекунд
+              // В случае ошибки отображаем содержимое страницы
+              document.body.style.visibility = 'visible'; // Показываем содержимое
           });
       }
 
