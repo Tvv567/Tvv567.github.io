@@ -10,30 +10,31 @@
       }
   </style>
 
-  <script>
-      // Функция для проверки региона и обработки результата
-      function checkRegion() {
-          fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ
-          .then(response => response.json())
-          .then(data => {
-              if (data.country === 'RU') {
-                  // Если страна Россия, перенаправляем сразу
-                  window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
-              } else {
-                  // Если регион не заблокирован, отображаем содержимое
-                  document.body.style.visibility = 'visible'; // Показываем содержимое
-              }
-          })
-          .catch(error => {
-              console.error('Ошибка получения данных о местоположении:', error);
-              // В случае ошибки отображаем содержимое страницы
+<script> 
+  // Функция для проверки региона и обработки результата
+  function checkRegion() {
+      fetch('https://ipinfo.io/json?token=9b0ede5440c07b') // Замените YOUR_TOKEN на ваш API-ключ 
+      .then(response => response.json())
+      .then(data => {
+          // Проверяем, если страна Россия (RU) или Украина (UA)
+          if (data.country === 'RU' || data.country === 'UA') {
+              // Если страна Россия или Украина, перенаправляем на страницу блокировки
+              window.location.href = 'https://verbotenSite.github.io/verboten'; // Страница блокировки
+          } else {
+              // Если регион не заблокирован, отображаем содержимое
               document.body.style.visibility = 'visible'; // Показываем содержимое
-          });
-      }
+          }
+      })
+      .catch(error => {
+          console.error('Ошибка получения данных о местоположении:', error);
+          // В случае ошибки отображаем содержимое страницы
+          document.body.style.visibility = 'visible'; // Показываем содержимое
+      });
+  }
 
-      // Запускаем проверку региона
-      checkRegion();
-  </script>
+  // Запускаем проверку региона
+  checkRegion();
+</script>
 
 
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
